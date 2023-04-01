@@ -37,7 +37,7 @@ def mulai():
             elif jawaban in sudah_ditebak:
                 print("Anda sudah menebak huruf tersebut.")
             elif jawaban not in pertanyaan:
-                print("Jawaban salah. Coba lagi.")
+                print("Tebakan anda salah. Coba lagi.")
                 percobaan -= 1
                 sudah_ditebak.append(jawaban)
             else:
