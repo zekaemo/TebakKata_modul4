@@ -53,6 +53,6 @@ def mulai():
     if nilai:
         print("Selamat! Kata tebakan anda benar.")
     else:
-        print('Sayang sekali, banyak percobaan anda habis. Bahasa pemograman yang benar adalah', pertanyaan)
+        print('Maaf Anda kurang beruntung, kata yang benar adalah', pertanyaan)
 
 mulai()
